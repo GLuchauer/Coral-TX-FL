@@ -13,7 +13,7 @@ Eventually generation of TX coral will become more adapted to heat resilience
 
 colonies come into existence via transplantation from lab specimens, translocation from coral reefs in the Gulf of Mexico and the Carribbean Sea and local reproduction via sexual reproduction and fragementation.
 
-# scale is the coral habitat of FKNMS
+#scale is the coral habitat of FKNMS
 
 The primary focus in FKNMS, with some analysis of the Carribbean marine system, mostly long distance ocean currents
 
@@ -44,7 +44,7 @@ Resilience variable = between 0 and 1. Corals are resilient when their Resilienc
 Climate variable = between 0 and 1 and increases over time 
 Substrate - determine where colonies successfully develop - based on changing parameters of the habitat. Temperature, pH, chlorophyll-a
 
-#3. Process overview 
+# 3. Process overview 
 
 corals in FKNMS are under a constant pressure to adapt to increasing water temperatures. In order to maintain colonies, corals that survive heat stress events are taken into captive propagation to produce resilient genotypes, which are planted into the system once colonies are large enough. 
 
@@ -52,7 +52,7 @@ However, FKNMS is not a isolated or closed system. Caribbean organisms move from
 
 For the class project, all translocation will be from Texas and all transplanted coral are offspring of FKNMS resilient coral - no super corals.
 
-#4. Initialization 
+# 4. Initialization 
 
 In order to build this model, we need to use Resilience and Climate as sliding scales over time. As Climate increases, corals will undergo a mortality event and rebound as the total population adapts to the new conditions. This cycle repeats annually, where summer typically has the mortality event. 
 
@@ -60,7 +60,7 @@ Corals rebound in the fall - spring with sexual reproduction in late summer/earl
 
 Produce a graph showing population with respect to time given both the Climate and Resilience sliding scales.
 
-#5. Description of different subroutines/functions/actions that need to happen in the model
+# 5. Description of different subroutines/functions/actions that need to happen in the model
 we need a smallest survivable colony size - the size that transplanted coral go into the system
 
 a large proportion (95%) of potential translocated coral polyps fail to migrate to FKNMS
