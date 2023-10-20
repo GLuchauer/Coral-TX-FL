@@ -35,9 +35,21 @@ number of translocated coral
 
 number of bleached coral
 
+number of recovered coral
+
 number of dead coral
 
+bleach rate - this is the percent of corals that experience bleaching driven by heat stress 
+
 death rate due to lack of current resilience - natural boulder coral mortality is very low due to their long lives and colonial nature.
+
+recovery rate due to the number of coral that experience bleaching but then recover (and recolor)
+
+Note that death rate and recovery rate are proportional to the total bleach rate 
+
+bleach = dead + recover
+
+population = healthy + (bleach - dead)
 
 Resilience variable = between 0 and 1. Corals are resilient when their Resilience variable is the same as the current Climate variable - how well acclimated is the current population to the current habitat.
 
