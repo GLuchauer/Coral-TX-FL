@@ -1,1 +1,41 @@
+# Subparts 
 
+#Resilience-Time and Climate
+
+Climate variable (CV) - a number between 0 and 1 that increases with climate change
+
+Resilience variable (RV) - a number betwen 0 and 1 that expresses how well corals are adapted to climate. If the RV matches the CV, corals are optimally adapted
+
+Local and Transplanted coral (native) have better RV due to select pressure and selective breeding for changing climate
+
+Translocated coral have lower RV due to lower selective pressure in buffered climate (deep-sea sea-mountains)
+
+Hybrid recuits have an RV between Translocated coral and native corals
+
+graph x = time/CV (years)
+      y = population
+      
+Time is continuous, CV increases incrementally to model the combination of the steady increase of anthropogenic climate change and natural climate ocillation  
+
+El Nino - occurs every 2-7 years, lasts for 9-12 months and amplies anthropogenic climate change. - for the model the CV will increase in increments of 5 years. 
+
+#Bleaching-Population  
+
+Number of Total coral 
+
+Number of Bleached coral 
+
+Number of Recover coral
+
+Bleach Rate - a proportion of total population that bleaches due to
+heat stress 
+
+Death Rate - the proportion of bleached coral lost - all coral death will result from heat stress in model and all stressed coral bleach
+
+Recovery Rate - the proportion of bleached coral that recover from bleaching 
+
+Bleach = dead + recover
+
+#change in population 
+
+population(post) = healthy + recover
