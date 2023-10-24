@@ -19,6 +19,9 @@ Time is continuous, CV increases incrementally to model the combination of the s
 
 El Nino - occurs every 2-7 years, lasts for 9-12 months and amplies anthropogenic climate change. - for the model the CV will increase in increments of 5 years. 
 
+Death rate normal - background loss #net population gain 
+El Nino Death rate - CV increase #net population loss
+
 #Bleaching-Population  
 
 Number of Total coral 
@@ -38,4 +41,45 @@ Bleach = dead + recover
 
 #change in population 
 
-population(post) = healthy + recover
+ra = reproductive age # number of individuals 6+ years
+pre = pre-reproductive age # number of individuals between 1 and 5 years
+new = recruits # number of individuals less than 1 year
+
+poulation(pre bleach) = ra + pre + new - #All healthy#
+
+population(bleach) = healthy + bleach
+
+population(post bleach) = healthy(ra+pre+new) + recover(ra+pre+new)
+
+# note most population will occur in younger corals
+
+reproducing population = healthy(ra)
+
+# Annual Recruits 
+
+local- 99% of new population - 6,800 - 680 = 6,120
+texas- 1% of new population - 680
+
+number new/year = 6,800
+
+# Number of inital older colonies
+
+old = 
+
+#Recruitment 
+
+Spawning - sexual reproduction that occurs in August-September
+
+Assume 1 spawn/year (both local and translocated)
+
+huge spawn, but 1% recruits 
+
+Fragmentation - asexual reproduction where an individual is "cloned" by spliting the colony into fragments 
+
+Transplanted coral - produced from fragmenting resilience local corals. Tracked by genotype of original colony
+
+Assume only Transplants are offspring of fragmentation (no hurricanes or other distrubances)
+
+All native corals have either traced genotype or parentage 
+
+Bleached corals do not spawn
