@@ -15,6 +15,27 @@ Hybrid recuits have an RV between Translocated coral and native corals
 graph x = time/CV (years)
       y = population
       
+      #data.frame = year = initialpop + (birthrate [x] - deathrate [x])
+      
+      #for(r in 1:rep){}
+      
+      # initialize corals
+      
+      for (y in 1:years){
+      
+      #immigration for Texas
+      
+      #heat death
+      
+      #disease - add random effects here 
+      
+      #selection - CV compared to RV
+      
+      #release from capivity 
+      }
+      
+      # output analyses 
+      
 Time is continuous, CV increases incrementally to model the combination of the steady increase of anthropogenic climate change and natural climate ocillation  
 
 El Nino - occurs every 2-7 years, lasts for 9-12 months and amplies anthropogenic climate change. - for the model the CV will increase in increments of 5 years. 
