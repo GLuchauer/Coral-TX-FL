@@ -83,3 +83,12 @@ Assume only Transplants are offspring of fragmentation (no hurricanes or other d
 All native corals have either traced genotype or parentage 
 
 Bleached corals do not spawn
+#
+#
+#
+#
+
+pop = (new - death rate)time
+
+if group = ra
+  
