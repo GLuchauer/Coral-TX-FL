@@ -15,7 +15,14 @@ Hybrid recuits have an RV between Translocated coral and native corals
 graph x = time/CV (years)
       y = population
       
-      #data.frame = year = initialpop + (birthrate [x] - deathrate [x])
+      #data.frame for annual change in population
+      #data.frame = year = initialpop + ([birthrate - deathrate]*x)
+      
+      #data.frame for annual adaption 
+      #data.frame1 = climate = if RV = CV then survival = .99
+      
+      #if RV is -0.45(CV) or +0.45(CV) or RV < 0.45(CV) R > 0.45(CV) then survival = 0
+      
       
       #for(r in 1:rep){}
       
@@ -23,15 +30,15 @@ graph x = time/CV (years)
       
       for (y in 1:years){
       
-      #immigration for Texas
+      #immigration for Texas - a constant (e.g. 50)
       
-      #heat death
+      #heat death - variable
       
       #disease - add random effects here 
       
       #selection - CV compared to RV
       
-      #release from capivity 
+      #release from capivity- a constant (e.g. 100) 
       }
       
       # output analyses 
