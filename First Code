@@ -1,3 +1,64 @@
+
+graph x = time/CV (years)
+      y = population
+      
+      #for(r in 1:rep){20,}
+      
+      # initialize corals
+      
+      for (y in 1:years){ 
+      
+      initialpop, 
+      
+      #data.frame for initialpop
+      #data.frame = intitialpop = [n1(FL native) + n2(TX migrant) + n3(lab)]
+      #intitialpop = 1000 + 300 + 10
+      
+      # each coral assigned an RV if CV = 0.25 - Cv increase by 0.001/per 
+      # every 5 years CV increase 0.1 - run for 20 years
+      # FL native corals = [0.1 - 0.5] 
+      # TX migrants = [0.01 - 1.0]
+      # Lab grown = [0.2 - 0.3]
+      
+      
+      #data.frame for annual change in population
+      #data.frame = year = initialpop + (birthrate - deathrate)
+      #deathrate = intitialpop - [0.5(bleach) + 0.01(healthy)]
+      #birthrate = {eggsperfemale*[(initalpop - bleach)/2]}0.75*100
+      
+      #data.frame for annual adaption 
+      #data.frame1 = climate = if RV = CV then survival = .99
+      
+      #if RV is -0.45(CV) or +0.45(CV) or RV < 0.45(CV) R > 0.45(CV) then survival = 0
+      
+      
+      
+      
+      #immigration for Texas - a constant (e.g. 50)
+      
+      #heat death - variable
+      
+      #disease - add random effects here 
+      
+      #selection - CV compared to RV
+      
+      #release from capivity- a constant (e.g. 100) 
+      }
+      
+      # output analyses 
+   
+   
+   # Parameters 
+         ###year 1
+          n1 = 1000
+          n2 = 300
+          n3 = 10
+      ###year +1
+          n1 = (intialpop of previous)
+          n2 = 300 
+          n3 = 10 
+
+ 
 # Subparts 
 
 #Resilience-Time and Climate
@@ -12,37 +73,8 @@ Translocated coral have lower RV due to lower selective pressure in buffered cli
 
 Hybrid recuits have an RV between Translocated coral and native corals
 
-graph x = time/CV (years)
-      y = population
-      
-      #data.frame for annual change in population
-      #data.frame = year = initialpop + ([birthrate - deathrate]*x)
-      
-      #data.frame for annual adaption 
-      #data.frame1 = climate = if RV = CV then survival = .99
-      
-      #if RV is -0.45(CV) or +0.45(CV) or RV < 0.45(CV) R > 0.45(CV) then survival = 0
-      
-      
-      #for(r in 1:rep){}
-      
-      # initialize corals
-      
-      for (y in 1:years){
-      
-      #immigration for Texas - a constant (e.g. 50)
-      
-      #heat death - variable
-      
-      #disease - add random effects here 
-      
-      #selection - CV compared to RV
-      
-      #release from capivity- a constant (e.g. 100) 
-      }
-      
-      # output analyses 
-      
+# Additional
+
 Time is continuous, CV increases incrementally to model the combination of the steady increase of anthropogenic climate change and natural climate ocillation  
 
 El Nino - occurs every 2-7 years, lasts for 9-12 months and amplies anthropogenic climate change. - for the model the CV will increase in increments of 5 years. 
