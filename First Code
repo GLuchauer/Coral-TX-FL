@@ -11,29 +11,107 @@ graph x = time/CV (years)
       initialpop, 
       
       #data.frame for initialpop
-      #data.frame = intitialpop = [n1(FL native) + n2(TX migrant) + n3(lab)]
-      #intitialpop = 1000 + 300 + 10
+      data.frame = intitialpop = [n1(FL native) + n2(TX migrant) + n3(lab)]
       
-      # each coral assigned an RV if CV = 0.25 - Cv increase by 0.001/per 
-      # every 5 years CV increase 0.1 - run for 20 years
-      # FL native corals = [0.1 - 0.5] 
-      # TX migrants = [0.01 - 1.0]
-      # Lab grown = [0.2 - 0.3]
+      #year 0
+      intitialpop = 1000 + 300 + 10 = #1310#
+      RV0 = 0.1
+      Cv0 = 0.1504
+      bleach0 = 262 corals
+      finalpop0 = (1310 - 141) + 778 = #1947#
       
       
-      #data.frame for annual change in population
-      #data.frame = year = initialpop + (birthrate - deathrate)
-      #deathrate = intitialpop - [0.5(bleach) + 0.01(healthy)]
-      #birthrate = {eggsperfemale*[(initalpop - bleach)/2]}0.75*100
+      #year 1 
+      initialpop1 = finalpop0 + 300 + 10 = #2257#
+      RV1 = 0.11
+      CV1 = 0.1918
+      bleach1 = 451
+      finalpop1 = (2257- 244) + 1341 = #3354#
       
+      #year 2 
+      initialpop2 = finalpop1 + 300 + 10 = #3664#
+      RV2 = 0.12
+      CV2 = 0.0182
+      bleach2 = 1099
+      finalpop2 = (3664 - 575) + 1905 = #4994#
+      
+      #year 3 
+      initialpop3 = finalpop2 + 300 + 10 = #5304#
+      RV3 = 0.13
+      CV3 = 0.2905
+      bleach3 = 
+      finalpop3 = 
+       
+      
+     
+      #annual coral CV year 0 - 4 
+      initialpopCV = (FlCv + TxCv + LabCv)/3
+      year0 = ((1000*0.18) + (300*0.054) + (10*0.078))/1310 = 0.1504
+      year1 = ((1947*0.20) + (300*0.14) + (10*0.15))/2257 = 0.1918
+      year2 = ((3354*0.017) + (300*0.011) + (10*0.64))/3664 = 0.0182
+      year3 = ((4994*0.30) + (300*0.13) + (10*0.36))/5304 = 0.2905
+      year4 = 
+      # First el nino
+      year5 =
+      #annual coral CV year 6 - 9
+      
+      # CV random variables for year 0 - 4
+      # FL native corals
+      Flcyc1 = runif(n=1, min=0.01, max=0.3)
+      FlCv = [0.01:0.3]
+      # TX migrants 
+      Txcyc1 = runif(n=1, min=0.01, max=0.7)
+      TxCv = [0.01:0.7]
+      # Lab grown
+      Labcyc1 = runif(n=1, min=0.01, max=0.15)
+      LabCv = [0.01:0.15]
+      # every 5 years RV increase 0.1 - run for 20 years
+      
+      #data.frame for annual change in population - average year
       #data.frame for annual adaption 
-      #data.frame1 = climate = if RV = CV then survival = .99
+      #Part 1:
+      #year0
+      data.frame0 = abs(0.1-0.1504)=0.0504
+      bleach0 = (intialpop*0.2) = 1310*0.2 = 262 bleach
+      healthy0 = 1310 - 262 = 1048
+      deathrate0 = (0.5*262) + (0.01*1048) = 141.48 = 141
+      birthrate0 = ((1048 - (0.01*1048))/2)*0.5*3 = 778 = 778
       
-      #if RV is -0.45(CV) or +0.45(CV) or RV < 0.45(CV) R > 0.45(CV) then survival = 0
+      #year1
+      data.frame1 = abs(RV1 - CV1) = 0.082 - apply Bleach Table
+      bleach1 = (initialpop1*0.2) = 451.4
+      healthy1 = initialpop1-451 = 1806
+      deathrate1 = (0.5*451) + (0.01*1806) = 243.56 = 244
+      birthrate1 = ((1806 - (0.01*1806))/2)*0.5*3 = 1340.95 = 1341
+     
+      #year2
+      data.frame2 = abs(RV2 - CV2) = 0.1018 - apply Bleach Table
+      bleach2 = (initialpop2*0.3) = 1099.2 = 1099
+      healthy2 = initialpop2-1099.2 = 2564.8 = 2565
+      deathrate2 = (0.5*1099) + (0.01*2565) = 575.15 = 575
+      birthrate2 = ((2565 - (0.01*2565))/2)*0.5*3 = 1904.51 = 1905
+     
+      #Proportion bleaching
+      #data.frame = abs(RV-CV)= 0.0504 - apply Bleach Table
+      #deathrate = (0.5(bleach) + 0.01(healthy))
+      #birthrate = (initalpop - (bleach + (0.01*1048))/2)*0.75*100
       
+      #if data.frame RV = CV then survival = .99
       
+      ########## Bleach Table ##########
       
+      #if data.frame < 0.05 then bleach = 0.10
+      #if data.frame 0.05 < 0.1 then bleach = 0.20
+      #if data.frame 0.1 < 0.15 then bleach = 0.30
+      #if data.frame 0.15 < 0.2 then bleach = 0.40
+      #if data.frame 0.2 < 0.25 then bleach = 0.50
+      #if data.frame 0.25 < 0.3 then bleach = 0.60
+      #if data.frame 0.3 < 0.35 then bleach = 0.70
+      #if data.frame 0.35 < 0.4 then bleach = 0.80
+      #if data.frame 0.4 < 0.45 then bleach = 0.90
+      #if data.frame 0.45 < then bleach = 1.00
       
+       
       #immigration for Texas - a constant (e.g. 50)
       
       #heat death - variable
