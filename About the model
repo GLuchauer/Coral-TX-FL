@@ -1,0 +1,7 @@
+Overall I think that this model currently has a strong framework to model coral populations, but I did not have time to better calibrate the RVs and CVs to better model current events
+
+I did adjust CVs when population had a major drop and removed lab grown plantings when the population was growing into order to replicate adaptive management strategies used in coral reef ecosystems, but in order to better model the population, CVs need to have smaller ranges and ranges further from the RV. But this model is showing major bleaching events that happen in the latter half of the model. The model is currently looking more like buffered reefs, like Flower Garden Banks, but can easily be calibrated to resemble Florida Keys with more time 
+
+I also need to utilize more of the data frames to simplify edits to the model
+
+Also, RV should likely decrease in some non el nino years, in order to better model temperature flucuations
