@@ -39,23 +39,130 @@ graph x = time/CV (years)
       initialpop3 = finalpop2 + 300 + 10 = #5304#
       RV3 = 0.13
       CV3 = 0.2905
-      bleach3 = 
-      finalpop3 = 
-       
+      bleach3 = 2122
+      finalpop3 = (5304 - 1093) + 2362 = #6573#
+      
+      #year 4
+      initialpop4 = finalpop3 + 300 + 10 = #6883#
+      RV4 = 0.14
+      CV4 = 0.2438
+      bleach4 = 2065
+      finalpop4 = (6883 - 1081) + 3577 = #9379#
+     
+     #year 5#First el nino
+     initialpop5 = finalpop4 + 300 + 10 = #9689#
+     RV5 = 0.26 
+     CV5 = 0.1861
+     bleach5 = 1938
+     finalpop5 = (9689 - 1047) + 5755 = #14397#
+     
+     #year 6
+     initialpop6 = finalpop5 + 10 = #14407#
+     RV6 = 0.27
+     CV6 = 0.0680
+     bleach6 = 7203
+     finalpop6 = (14407-3674) + 5349 = #16082#
+     
+     #year 7
+     initialpop7 = finalpop6 + 10 = #16092#
+     RV7 = 0.28
+     CV7 = 0.2701
+     bleach7 = 1609
+     finalpop7 = (16092-949) + 10754 = #25897#
+     
+     #year 8
+     initialpop8 = finalpop7 + 10 = #25907#
+     RV8 = 0.29
+     CV8 = 0.1799
+     bleach8 = 7772
+     finalpop8 = (25907-4067) + 13465 = #35305#
+     
+     #year 9
+     initialpop9 = finalpop8 + 10 = #35315#
+     RV9 = 0.30
+     CV9 = 0.1401
+     bleach9 = 14126
+     finalpop9 = (35315-7275) + 15733 = #43773#
+     
+     #year 10#Second el nino
+     initialpop10 = finalpop9 + 10 = #43783#
+     RV10 = 0.42
+     CV10 = 0.2401
+     bleach10 = 17513
+     finalpop10 = (43783-9019) + 19506 = #54270#
+     
+     #year 11
+     initialpop11 = finalpop10 + 10 = #54280#
+     RV11 = 0.43
+     CV11 = 0.3
+     bleach11 = 16284
+     finalpop11 = (54280-8522) + 28212 = #73970# 
+     
+     #year 12 
+     initialpop12 = finalpop11 + 10 = #73980#
+     RV12 = 0.44
+     CV12 = 0.0861
+     bleach12 = 59184
+     finalpop12 = (73980-29740) + 10986 = #55226# 
+     
+     #year 13
+     initialpop13 = finalpop12 + 10 = #55236#
+     RV13 = 0.45
+     CV13 = 0.19
+     bleach13 = 33142
+     finalpop13 = (55236-16792) + 16405 = #54849#
+     
+     #year 14 
+     initialpop14 = finalpop13 + 10 = #54859#
+     RV14 = 0.46 
+     CV14 = 0.20
+     bleach14 = 32915
+     finalpop14 = (54859-16677) + 16293 = #54475#
+     
+     #year 15#Third el nino
+     initialpop15 = finalpop14 + 10 = #54485#
+     RV15 = 0.58
+     CV15 = 0.19
+     bleach15 = 43588
+     finalpop15 = (54485-21903) + 8091 = #40673#
+     
+     #year 16 
+     initialpop16 = finalpop15 + 300 + 10 = #40983#
+     RV16 = 0.59
+     CV16 = 0.3394
+     bleach16 = 24590
+     finalpop16 = (40983-12459) + 12172 = 40696
+     
+     #year 17
+     initialpop17 = finalpop16 + 300 + 10 = 41006
+     RV17 = 0.60
+     CV17 = 0.1013 
+     bleach17 = 41006
+     finalpop17 = 41006 - 20503 = 20503
+     
+     #year 18
+     initialpop18 = finalpop17 + 300 + 10 = 20813
+     RV18 = 0.61
+     CV18 = 0.4394
+     bleach18 = 8325
+     finalpop18 = (20813-4288) + 9272 = 25797
+     
+     #year 19
+     initialpop19 = finalpop18 + 300 + 10 = 26107
+     RV19 = 0.62
+     CV19 = 0.2820
+     bleach19 = 18275
+     finalpop19 = (26107-9216) + 5815 = 22706
+     
+     #year 20#Fourth el nino
+     initialpop20 = finalpop19 + 300 + 10 = 23016
+     RV20 = 0.74
+     CV20 = 0.4389
+     bleach20 = 16111
+     finalpop20 = (23016 - 8125) + 5127 = 20018
       
      
-      #annual coral CV year 0 - 4 
-      initialpopCV = (FlCv + TxCv + LabCv)/3
-      year0 = ((1000*0.18) + (300*0.054) + (10*0.078))/1310 = 0.1504
-      year1 = ((1947*0.20) + (300*0.14) + (10*0.15))/2257 = 0.1918
-      year2 = ((3354*0.017) + (300*0.011) + (10*0.64))/3664 = 0.0182
-      year3 = ((4994*0.30) + (300*0.13) + (10*0.36))/5304 = 0.2905
-      year4 = 
-      # First el nino
-      year5 =
-      #annual coral CV year 6 - 9
-      
-      # CV random variables for year 0 - 4
+      # CV random variables for year 0 - 5, 6 - 10, 11 - 15
       # FL native corals
       Flcyc1 = runif(n=1, min=0.01, max=0.3)
       FlCv = [0.01:0.3]
@@ -65,7 +172,68 @@ graph x = time/CV (years)
       # Lab grown
       Labcyc1 = runif(n=1, min=0.01, max=0.15)
       LabCv = [0.01:0.15]
+      
+      # CV random variables for year 16 - 17
+      # FL native corals
+      Flcyc2 = runif(n=1, min=0.1, max=0.35)
+      FlCv = [0.1:0.35]
+      # TX migrants 
+      Txcyc1 = runif(n=1, min=0.01, max=0.7)
+      TxCv = [0.01:0.7]
+      # Lab grown
+      Labcyc2 = runif(n=1, min=0.2, max=0.35)
+      LabCv = [0.2:0.35]
+      
+      # CV random variables for year 18 - 20
+      # FL native corals
+      Flcyc3 = runif(n=1, min=0.2, max=0.45)
+      FlCv = [0.1:0.35]
+      # TX migrants 
+      Txcyc1 = runif(n=1, min=0.01, max=0.7)
+      TxCv = [0.01:0.7]
+      # Lab grown
+      Labcyc3 = runif(n=1, min=0.3, max=0.45)
+      LabCv = [0.2:0.35]
       # every 5 years RV increase 0.1 - run for 20 years
+      
+      #annual coral CV year 16 - 19
+      initialpopCV = (FlCv + TxCv + LabCv)/n
+      year16 = ((40673*0.34) + (300*0.26) + (10*0.15))/40983 = 0.3394
+      year17 = ((40696*0.10) + (300*0.29) + (10*0.087))/41006 = 0.1013 
+      year18 = ((20503*0.44) + (300*0.41) + (10*0.18))/20813 = 0.4394
+      year19 = ((25797*0.28) + (300*0.44) + (10*0.60))/26107 = 0.2820
+      #Fourth el nino
+      year20 = ((22706*0.44) + (300*0.37) + (10*0.0489))/23016 = 0.4389
+      
+      #annual coral CV year 11 - 14
+      initialpopCV = (FlCv + TxCv)/n
+      year11 = ((54270*0.3) + (10*0.28))/54280 = 0.3
+      year12 = ((73970*0.086) + (10*0.70))/73980 = 0.0861
+      year13 = ((55226*0.19) + (10*0.58))/55236 = 0.19
+      year14 = ((54849*0.20) + (10*0.47))/54859 = 0.20
+      # Third el nino
+      year15 = ((54475*0.19) + (10*0.0616))/54485 = 0.19
+      #annual coral CV year 6 - 9
+      initialpopCV = (FlCv + TxCv)/n
+      year6 = ((14397*0.0678) + (10*0.40))/14407 = 0.0680
+      year7 = ((16082*0.27) + (10*0.41))/16092 = 0.2701
+      year8 = ((25897*0.18) + (10*0.0449))/25907 = 0.1799
+      year9 = ((35305*0.14) + (10*0.66))/35315 = 0.1401
+      # Second el nino
+      year10 = ((43773*0.24) + (10*0.69))/43783 = 0.2401
+      
+      #annual coral CV year 0 - 4 
+      initialpopCV = (FlCv + TxCv + LabCv)/3
+      year0 = ((1000*0.18) + (300*0.054) + (10*0.078))/1310 = 0.1504
+      year1 = ((1947*0.20) + (300*0.14) + (10*0.15))/2257 = 0.1918
+      year2 = ((3354*0.017) + (300*0.011) + (10*0.64))/3664 = 0.0182
+      year3 = ((4994*0.30) + (300*0.13) + (10*0.36))/5304 = 0.2905
+      year4 = ((6573*0.25) + (300*0.11) + (10*0.19))/6883 = 0.2438
+      # First el nino
+      year5 = ((9379*0.19) + (300*0.0689) + (10*0.0159))/9689 = 0.1861
+      
+      
+     
       
       #data.frame for annual change in population - average year
       #data.frame for annual adaption 
@@ -90,6 +258,132 @@ graph x = time/CV (years)
       healthy2 = initialpop2-1099.2 = 2564.8 = 2565
       deathrate2 = (0.5*1099) + (0.01*2565) = 575.15 = 575
       birthrate2 = ((2565 - (0.01*2565))/2)*0.5*3 = 1904.51 = 1905
+      
+      #year3
+      data.frame3 = abs(RV3 - CV3) = 0.1605 - apply Bleach Table
+      bleach3 = (initialpop3*0.4) = 2121.6 = 2122
+      healthy3 = initialpop3-2122 = 3182
+      deathrate3 = (0.5*2122) + (0.01*3182) = 1092.82 = 1093
+      birthrate3 = ((3182 - (0.01*3182))/2)*0.5*3 = 2362
+      
+      #year4
+      data.frame4 = abs(RV4 - CV4) = 0.1038 - apply Bleach Table
+      bleach4 = (initialpop4*0.3) = 2064.9 = 2065
+      healthy4 = initialpop4-2065 = 4818 
+      deathrate4 = (0.5*2065) + (0.01*4818) = 1080.68 = 1081
+      birthrate4 = ((4818 - (0.01*4818))/2)*0.5*3 = 3577.36 = 3577
+      
+      #year5
+      data.frame5 = abs(RV5 - CV5) = 0.0739 - apply Bleach Table 
+      bleach5 = (initialpop5*0.2) = 1937.8 = 1938
+      healthy5 = initialpop5-1938 = 7751
+      deathrate5 = (0.5*1938) + (0.01*7751) = 1046.51 = 1047
+      birthrate5 = ((7751 - (0.01*7751))/2)*0.5*3 = 5755.1 = 5755
+      
+      #year6
+      data.frame6 = abs(RV6 - CV6) = 0.202 - apply Bleach Table
+      bleach6 = (initialpop6*0.5) = 7203
+      healthy6 = initialpop6 - 7203 = 7204
+      deathrate6 = (0.5*7203) + (0.01*7204) = 3673.54 = 3674
+      birthrate6 = ((7204 - (0.01*7204))/2)*0.5*3 = 5348.97 = 5349
+      
+      #year7
+      data.frame7 = abs(RV7 - CV7) = 0.0099 - apply Bleach Table
+      bleach7 = (initialpop7*0.1) = 1609.2 = 1609
+      healthy7 = initialpop7 - 1609 = 14483
+      deathrate7 = (0.5*1609) + (0.01*14483) = 949.3 = 949
+      birthrate7 = ((14483 - (0.01*14483))/2)*0.5*3 = 10753.6 = 10754
+      
+      #year8
+      data.frame8 = abs(RV8 - CV8) = 0.1101 - apply Bleach Table
+      bleach8 = (initialpop8*0.3) = 7772.1 = 7772
+      healthy8 = initialpop8 - 7772 = 18135
+      deathrate8 = (0.5*7772) + (0.01*18135) = 4067.3 = 4067
+      birthrate8 = ((18135 - (0.01*18135))/2)*0.5*3 = 13465.24 = 13465
+      
+      #year9
+      data.frame9 = abs(RV9 - CV9) = 0.1599 - apply Bleach Table
+      bleach9 = (initialpop9*0.4) = 14126
+      healthy9 = initialpop9 - 14126  = 21189
+      deathrate9 = (0.5*14126) + (0.01*14126) = 7204.2 = 7204 
+      birthrate9 = ((21189 - (0.01*21189))/2)*0.5*3 = 15732.8 = 15733 
+      
+      #year10
+      data.frame10 = abs(RV10 - CV10) = 0.1799 - apply Bleach Table
+      bleach10 = (initialpop10*0.4) = 17513.2 = 17513
+      healthy10 = initialpop10 - 17513 = 26270 
+      deathrate10 = (0.5*17513) + (0.01*26270) = 9019.2 = 9019 
+      birthrate10 = ((26270 - (0.01*26270))/2)*0.5*3 = 19505.5 = 19506
+      
+      #year11
+      data.frame11 = abs(RV11 - CV11) = 0.13 - apply Bleach Table
+      bleach11 = (initialpop11*0.3) = 16284
+      healthy11 = initialpop11 - 16284 = 37996  
+      deathrate11 = (0.5*16284) + (0.01*37996) = 8521.9 = 8522 
+      birthrate11 = ((37996 - (0.01*37996))/2)*0.5*3 = 28212
+      
+      #year12
+      data.frame12 = abs(RV12 - CV12) = 0.3539 = apply Bleach Table
+      bleach12 = (initialpop12*0.8) = 59184
+      healthy12 = initialpop12 - 59184 = 14796
+      deathrate12 = (0.5*59184) + (0.01*14796) = 29739.96 = 29740
+      birthrate12 = ((14796 - (0.01*14796))/2)*0.5*3 = 10986
+      
+      #year13
+      data.frame13 = abs(RV13 - CV13) = 0.26 - apply Bleach Table
+      bleach13 = (initialpop13*0.6) = 33141.6 = 33142
+      healthy13 = initialpop13 - 33142 = 22094
+      deathrate13 = (0.5*33142) + (0.01*22094) = 16791.9 = 16792
+      birthrate13 = ((22094 - (0.01*22094))/2)*0.5*3 = 16404.8 = 16405
+      
+      #year14 
+      data.frame14 = abs(RV14 - CV14) = 0.26 - apply Bleach Table
+      bleach14 = (initialpop14*0.6) = 32915.4 = 32915
+      healthy14 = initialpop14 - 32915 = 21944
+      deathrate14 = (0.5*32915) + (0.01*21944) = 16676.9 = 16677
+      birthrate14 = ((21944 - (0.01*21944))/2)*0.5*3 = 16293.4 = 16293
+      
+      #year15
+      data.frame15 = abs(RV15 - CV15) = 0.39 - apply Bleach Table
+      bleach15 = (initialpop15*0.8) = 43588
+      healthy15 = initialpop15 - 43588 = 10897
+      deathrate15 = (0.5*43588) + (0.01*10897) = 21902.9 = 21903
+      birthrate15 = ((10897 - (0.01*10897))/2)*0.5*3 = 8091
+      
+      #year16
+      data.frame16 = abs(RV16 - CV16) = 0.2506 
+      bleach16 = (initialpop16*0.6) = 24589.8 = 24590
+      healthy16 = initialpop16 - 24590 = 16393
+      deathrate16 = (0.5*24590) + (0.01*16393) = 12458.9 = 12459 
+      birthrate16 = ((16393 - (0.01*16393))/2)*0.5*3 = 12171.8 = 12172
+      
+      #year17
+      data.frame17 = abs(RV17 - CV17) = 0.498
+      bleach17 = (initialpop17*1) = 41006
+      healthy17 = 0
+      deathrate17= (0.5*41006) + (0.01*0) = 20503
+      birthrate17 = ((0 - (0.01*0))/2)*0.5*3 = 0
+      
+      #year18
+      data.frame18 = abs(RV18 - CV18) = 0.1706
+      bleach18 = (initialpop18*0.4) = 8325.2
+      healthy18 = initialpop18-8325.2 = 12487.8 = 12488
+      deathrate18 = (0.5*8325.2) + (0.01*12488) = 4287.5 = 4288
+      birthrate18 = ((12488 - (0.01*12488))/2)*0.5*3 = 9272.34
+      
+      #year19
+      data.frame19 = abs(RV19 - CV19) = 0.338
+      bleach19 = (initialpop19*0.7) = 18274.9 = 18275
+      healthy19 = initialpop19 - 18275 = 7832
+      deathrate19 = (0.5*18275) + (0.01*7832) = 9215.8 = 9216
+      birthrate19 = ((7832 - (0.01*7832))/2)*0.5*3 = 5815
+      
+      #year20
+      data.frame20 = abs(RV20 - CV20) = 0.3011
+      bleach20 = (initialpop20*0.7) = 16111
+      healthy20 = initialpop20 - 16111 = 6905
+      deathrate20 = (0.5*16111) + (0.01*6905) = 8124.5 = 8125
+      birthrate20 = ((6905 - (0.01*6905))/2)*0.5*3 = 5126.9 = 5127
      
       #Proportion bleaching
       #data.frame = abs(RV-CV)= 0.0504 - apply Bleach Table
