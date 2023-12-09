@@ -9,6 +9,12 @@ graph x = time/CV (years)
       for (y in 1:years){ 
       
       initialpop, 
+      datum=read.csv(file.choose())
+      plot(Climate~Resilience,data=datum)
+      results = lm(Climate~Resilience,data=datum)
+      abline(results1)
+      plot(Population~Year,data=datum)
+      results1 = lm(Population~Year,data=datum)
       
       #data.frame for initialpop
       data.frame = intitialpop = [n1(FL native) + n2(TX migrant) + n3(lab)]
